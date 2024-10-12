@@ -194,7 +194,7 @@ footer {
 
 /* PHOTOS */
 #aboutmeportrait1 {
-    width: 50em;
+    width: 40em;
     margin: 0 auto; 
     margin-left: auto;
     margin-right: auto;
@@ -284,12 +284,3 @@ footer {
 
 
 /* Small Screens */
-@media (max-width: 600px) {
-    .navlinks {
-        font-size: 2em;
-    }
-    .secondarynav {
-        font-size: 2em;
-    }
-}
-    
