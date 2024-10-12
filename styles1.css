@@ -1,0 +1,292 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;    
+}
+html {
+    font-size: 12px;
+    color: black;
+}
+body {
+    background-color: white;
+    font-family: monospace;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+}
+header {
+    width: 80em; 
+    margin: 0 auto; 
+    background-color: black; 
+    text-align: center; 
+    color: white; 
+    padding: 2em 2em; 
+    box-sizing: border-box; 
+    margin-bottom: 3em; 
+}
+footer {
+    width: 95em; 
+    margin: 0 auto; 
+    background-color: black; 
+    text-align: center; 
+    color: white; 
+    font-size: 10px; 
+    padding: 2em 2em; 
+    box-sizing: border-box; 
+    margin-top: 3.5em; 
+}
+
+
+
+
+.name {
+    display: flex;
+    margin-left: 14em;
+    height: 1vh; 
+}
+.name a {
+    font-size: 1em;
+    color: white;
+    font-family: monospace;
+    font-weight: 900;
+    text-decoration: underline;
+    
+}
+.name a:hover {
+    color: plum;
+}
+
+
+
+.indexcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70em;
+}
+.indexcontent a {
+    display: block; 
+    font-size: 1em;
+}
+
+
+
+.navlinks a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1em;
+    color: black;
+}
+.navlinks a:hover {
+    color: plum;
+    
+}
+.secondarynav a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    color: black;
+
+}
+.secondarynav a:hover {
+    color: plum;
+}
+
+
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 0 auto;
+    width: fit-content;
+    gap: 1em; 
+    max-width: 100em;
+}
+.aboutmetext {
+    max-width: 33em;
+    margin-top: 1em; 
+}
+.aboutmetext p {
+    margin-bottom: 1.3em;
+}
+.aboutmetext h1 {
+    margin-bottom: 1.3em;
+    font-size: 1em;
+}
+
+
+
+.cv {
+    display: flex;               
+    flex-direction: column;      
+    align-items: center;        
+    margin: 0 auto; 
+    gap: 1em; 
+    max-width: 125em;
+}
+.cvtext {
+    max-width: 41em;
+    margin-top: 20px; 
+}
+.cvtext li {
+    margin-bottom: .5em;
+}
+.cvtext h1 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1em; 
+}
+.projects a {
+    display: block;
+    width: 41.5em; 
+    height: auto;
+}
+.projects img {
+    width: 100%;
+    height: auto;
+}
+.projects h1 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+.series {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1em; 
+}
+.series a{
+    display: block;
+    width: 41.5em; 
+    height: auto;
+}
+.series img {
+    width: 100%;
+    height: auto;
+}
+.series h1{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+/* PHOTOS */
+#aboutmeportrait1 {
+    width: 50em;
+    margin: 0 auto; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#aboutmeportrait2 {
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+#aboutmeportrait3 {
+    max-width: 40em;          
+    height: auto;               
+    display: block;          
+    margin: 20px 0; 
+}
+
+
+
+
+
+.photocarousel {
+    width: 80em;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 80em;
+    transition: none;
+    position: relative;
+}
+.carousel-image {
+    flex: 0 0 100%;
+    width: 80em;
+    height: 80em;
+    object-fit: contain;
+    overflow: hidden;
+}
+.carousel-buttons {
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    z-index: 2; 
+}
+.carousel-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    margin: .5em;
+    border-radius: .5em;
+}
+
+
+
+.photocarouseltext {
+    max-width: 45em;
+    margin: 2.5em auto;
+    color: black;
+    font-size: 1em;
+    text-align: left;
+}
+.photocarouseltext p {
+    margin-top: 1em;
+}
+.photocarouseltext h1{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.photocarouseltext h2 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* Small Screens */
+@media (max-width: 600px) {
+    
+
+
+/* Medium Screens */
+@media (min-width: 601px) and (max-width: 900px) {
