@@ -285,8 +285,11 @@ footer {
 
 /* Small Screens */
 @media (max-width: 600px) {
+    .navlinks {
+        font-size: 2em;
+    }
+    .secondarynav {
+        font-size: 2em;
+    }
+}
     
-
-
-/* Medium Screens */
-@media (min-width: 601px) and (max-width: 900px) {
