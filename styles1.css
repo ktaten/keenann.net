@@ -27,7 +27,7 @@ header {
     margin-bottom: 3em; 
 }
 footer {
-    width: 95em; 
+    width: 96em; 
     margin: 0 auto; 
     background-color: black; 
     text-align: center; 
@@ -277,10 +277,32 @@ footer {
 
 
 
+.singles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 60%; 
+    width: 100%;
+}
+
+.singles-wrapper {
+    text-align: center;
+    margin-bottom: 2em; 
+}
+
+.singles-caption {
+    margin-top: 0.5em; 
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.singles img {
+    max-width: 100%; 
+    display: block;
+}
 
 
-
-
-
-
-/* Small Screens */
