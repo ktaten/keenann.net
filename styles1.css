@@ -190,6 +190,29 @@ footer {
 
 
 
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1em; 
+}
+.other a {
+    display: block;
+    width: 41.5em; 
+    height: auto;
+}
+.other img {
+    width: 100%;
+    height: auto;
+}
+.other h1 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
+
 
 
 /* PHOTOS */
