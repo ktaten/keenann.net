@@ -55,14 +55,14 @@ footer {
     
 }
 .name a:hover {
-    color: plum;
+    color: #D0F0C0;
 }
 
 
 
 .indexcontent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -75,14 +75,23 @@ footer {
 
 
 
-.navlinks a {
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 1em;
+}
+
+
+
+.primarynav a {
     text-decoration: none;
     font-weight: 900;
     font-size: 1em;
     color: black;
 }
-.navlinks a:hover {
-    color: plum;
+.primarynav a:hover {
+    color: #D0F0C0;
     
 }
 .secondarynav a {
@@ -93,7 +102,7 @@ footer {
 
 }
 .secondarynav a:hover {
-    color: plum;
+    color: #D0F0C0;
 }
 
 
@@ -108,7 +117,7 @@ footer {
     max-width: 100em;
 }
 .aboutmetext {
-    max-width: 33em;
+    max-width: 40em;
     margin-top: 1em; 
 }
 .aboutmetext p {
@@ -215,19 +224,19 @@ footer {
 
 
 /* PHOTOS */
-#aboutmeportrait1 {
-    width: 40em;
+#portrait1 {
+    width: 60em;
     margin: 0 auto; 
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-#aboutmeportrait2 {
+#portrait2 {
     max-width: 400px;
     height: auto;
     display: block;
 }
-#aboutmeportrait3 {
+#portrait3 {
     max-width: 40em;          
     height: auto;               
     display: block;          
