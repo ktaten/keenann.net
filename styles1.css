@@ -55,7 +55,7 @@ footer {
     
 }
 .name a:hover {
-    color: #D0F0C0;
+    color: rgb(100,130,130);
 }
 
 
@@ -91,7 +91,7 @@ footer {
     color: black;
 }
 .primarynav a:hover {
-    color: #D0F0C0;
+    color: rgb(100,130,130);
     
 }
 .secondarynav a {
@@ -102,7 +102,7 @@ footer {
 
 }
 .secondarynav a:hover {
-    color: #D0F0C0;
+    color: rgb(100,130,130);
 }
 
 
