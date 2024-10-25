@@ -109,7 +109,7 @@ footer {
 
 .aboutme {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center; 
     margin: 0 auto;
     width: fit-content;
@@ -232,7 +232,7 @@ footer {
     display: block;
 }
 #portrait2 {
-    max-width: 400px;
+    max-width: 40em;
     height: auto;
     display: block;
 }
