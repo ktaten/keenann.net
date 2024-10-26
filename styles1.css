@@ -149,6 +149,9 @@ footer {
     text-decoration: underline;
     margin-bottom: 1em;
 }
+.cvtext h2 {
+    margin-bottom: .5em;
+}
 
 
 
