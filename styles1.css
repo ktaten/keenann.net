@@ -228,14 +228,14 @@ footer {
 
 /* PHOTOS */
 #portrait1 {
-    width: 60em;
+    width: 80em;
     margin: 0 auto; 
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 #portrait2 {
-    max-width: 40em;
+    max-width: 50em;
     height: auto;
     display: block;
 }
