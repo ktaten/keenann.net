@@ -17,17 +17,16 @@ body {
     margin: 0;
 }
 header {
-    width: 80em; 
+    width: 60em; 
     margin: 0 auto; 
     background-color: black; 
-    text-align: center; 
     color: white; 
     padding: 2em 2em; 
     box-sizing: border-box; 
     margin-bottom: 4em; 
 }
 footer {
-    width: 96em; 
+    width: 72em; 
     margin: 0 auto; 
     background-color: black; 
     text-align: center; 
@@ -35,7 +34,7 @@ footer {
     font-size: 10px; 
     padding: 2em 2em; 
     box-sizing: border-box; 
-    margin-top: 5em; 
+    margin-top: 3em; 
 }
 
 
@@ -43,7 +42,6 @@ footer {
 
 .name {
     display: flex;
-    margin-left: 14em;
     height: 1vh; 
 }
 .name a {
@@ -117,8 +115,7 @@ footer {
     max-width: 100em;
 }
 .aboutmetext {
-    max-width: 40em;
-    margin-top: 1em; 
+    max-width: 55em;
 }
 .aboutmetext p {
     margin-bottom: 1.3em;
@@ -228,22 +225,16 @@ footer {
 
 /* PHOTOS */
 #indexphoto {
-    width: 80em;
+    width: 60em;
     margin: 0 auto; 
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-#portrait2 {
+#aboutmephoto {
     max-width: 50em;
     height: auto;
     display: block;
-}
-#portrait3 {
-    max-width: 40em;          
-    height: auto;               
-    display: block;          
-    margin: 20px 0; 
 }
 
 
