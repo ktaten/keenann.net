@@ -152,6 +152,28 @@ footer {
 }
 
 
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1em; 
+}
+.books a {
+    display: block;
+    width: 41.5em; 
+    height: auto;
+}
+.books img {
+    width: 100%;
+    height: auto;
+}
+.books h1 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
 
 .projects {
     display: flex;
