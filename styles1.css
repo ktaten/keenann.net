@@ -145,9 +145,11 @@ footer {
 .cvtext h1 {
     font-size: 1.5em;
     margin-bottom: 1em;
+    text-decoration: none;
 }
 .cvtext h2 {
     margin-bottom: .5em;
+    text-decoration: underline;
 }
 
 
