@@ -106,7 +106,7 @@ footer {
 
 
 
-.aboutme {
+.bio {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -115,13 +115,13 @@ footer {
     gap: 1em; 
     max-width: 100em;
 }
-.aboutmetext {
+.biotext {
     max-width: 55em;
 }
-.aboutmetext p {
+.biotext p {
     margin-bottom: 1.3em;
 }
-.aboutmetext h1 {
+.biotext h1 {
     margin-bottom: 1.3em;
     font-size: 1em;
 }
@@ -256,7 +256,7 @@ footer {
     margin-right: auto;
     display: block;
 }
-#aboutmephoto {
+#biophoto {
     max-width: 50em;
     height: auto;
     display: block;
