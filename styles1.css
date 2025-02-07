@@ -123,7 +123,6 @@ footer {
     max-width: 100em;
 }
 .biotext {
-    margin-top: 3em;
     max-width: 55em;
 }
 .biotext p {
@@ -139,6 +138,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 4em;
 }
 
 
