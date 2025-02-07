@@ -258,6 +258,9 @@ footer {
 }
 #biophoto {
     max-width: 50em;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     display: block;
 }
