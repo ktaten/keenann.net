@@ -158,11 +158,12 @@ footer {
     margin-bottom: .5em;
 }
 .cvtext h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 1em;
     text-decoration: none;
 }
 .cvtext h2 {
+    font-size: 1em;
     margin-bottom: .5em;
     text-decoration: underline;
 }
