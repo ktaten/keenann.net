@@ -132,6 +132,14 @@ footer {
     margin-bottom: 1.3em;
     font-size: 1em;
 }
+.biotext a {
+    color: blue;
+
+}
+.biotext a :hover {
+    color: lightblue;
+    
+}
 #biophoto {
     width: 60em;
     margin: 0 auto;
