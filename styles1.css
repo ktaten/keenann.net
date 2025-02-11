@@ -133,21 +133,21 @@ footer {
     font-size: 1em;
 }
 .biotext a {
-    color: blue;
+    color:midnightblue;
     text-decoration: underline;
 
 }
 .biotext a :hover {
-    color: lightblue;
+    color: midnightblue;
     text-decoration: underline;
     
 }
 .biotext a:visited {
-    color: blue; 
+    color: midnightblue; 
     text-decoration: underline; 
 }
 .biotext a:active {
-    color: lightblue; 
+    color: midnightblue; 
     text-decoration: underline; 
 }
 #biophoto {
