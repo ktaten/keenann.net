@@ -134,10 +134,12 @@ footer {
 }
 .biotext a {
     color: blue;
+    text-decoration: underline;
 
 }
 .biotext a :hover {
     color: lightblue;
+    text-decoration: underline;
     
 }
 .biotext a:visited {
