@@ -140,6 +140,14 @@ footer {
     color: lightblue;
     
 }
+.biotext a:visited {
+    color: blue; 
+    text-decoration: underline; 
+}
+.biotext a:active {
+    color: lightblue; 
+    text-decoration: underline; 
+}
 #biophoto {
     width: 60em;
     margin: 0 auto;
