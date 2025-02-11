@@ -37,6 +37,24 @@ footer {
     box-sizing: border-box; 
     margin-top: 4.3em; 
 }
+a {
+    color:midnightblue;
+    text-decoration: underline;
+
+}
+a :hover {
+    color: midnightblue;
+    text-decoration: underline;
+    
+}
+a:visited {
+    color: midnightblue; 
+    text-decoration: underline; 
+}
+a:active {
+    color: midnightblue; 
+    text-decoration: underline; 
+}
 
 
 
@@ -131,24 +149,6 @@ footer {
 .biotext h1 {
     margin-bottom: 1.3em;
     font-size: 1em;
-}
-.biotext a {
-    color:midnightblue;
-    text-decoration: underline;
-
-}
-.biotext a :hover {
-    color: midnightblue;
-    text-decoration: underline;
-    
-}
-.biotext a:visited {
-    color: midnightblue; 
-    text-decoration: underline; 
-}
-.biotext a:active {
-    color: midnightblue; 
-    text-decoration: underline; 
 }
 #biophoto {
     width: 60em;
