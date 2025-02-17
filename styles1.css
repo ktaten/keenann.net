@@ -102,7 +102,7 @@ a:active {
 .nav-container {
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
     margin-top: 2em;
 }
 
@@ -121,6 +121,16 @@ a:active {
 .nav a:hover {
     color: lightgrey;
 }
+.nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+.nav a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 
