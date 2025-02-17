@@ -42,7 +42,7 @@ a {
     text-decoration: underline;
 
 }
-a :hover {
+a:hover {
     color: midnightblue;
     text-decoration: underline;
     
