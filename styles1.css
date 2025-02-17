@@ -102,13 +102,14 @@ a:active {
 .nav-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     gap: 3em;
     margin-top: 2em;
 }
 
 
-
+.primarynav {
+    padding: 1em;
+}
 .primarynav a {
     text-decoration: none;
     font-weight: 900;
@@ -117,7 +118,9 @@ a:active {
 }
 .primarynav a:hover {
     color: lightgrey;
-    
+}
+.secondarynav {
+    padding: 1em;
 }
 .secondarynav a {
     text-decoration: none;
