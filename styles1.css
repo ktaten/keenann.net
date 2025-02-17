@@ -108,26 +108,31 @@ a:active {
 
 
 .primarynav {
-    padding: 1em;
+    overflow: visible;
+
 }
 .primarynav a {
     text-decoration: none;
     font-weight: 900;
     font-size: 1em;
     color: black;
+    padding: 0.2em 0.2em;
+    margin: 0;
 }
 .primarynav a:hover {
     color: lightgrey;
 }
 .secondarynav {
-    padding: 1em;
+    overflow: visible;
+
 }
 .secondarynav a {
     text-decoration: none;
     font-size: 1em;
     font-weight: 900;
     color: black;
-
+    padding: 0.2em 0.2em;
+    margin: 0;
 }
 .secondarynav a:hover {
     color: lightgrey;
