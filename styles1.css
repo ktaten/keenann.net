@@ -16,20 +16,20 @@ body {
     margin: 0;
 }
 header {
-    width: 60em; 
+    width: 74em; 
     margin: 0 auto; 
-    background-color: black; 
-    color: white; 
+    background-color: lightgray; 
+    color: grey; 
     padding: 2em 2em; 
     box-sizing: border-box; 
     margin-bottom: 4em; 
 }
 footer {
-    width: 86em; 
+    width: 100em; 
     margin: 0 auto; 
-    background-color: black; 
+    background-color:lightgrey; 
     text-align: center; 
-    color: white; 
+    color: grey; 
     font-size: .7em; 
     font-weight: 900;
     padding: 2em 2em; 
